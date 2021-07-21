@@ -69,6 +69,14 @@ p {
     padding-left: 10px;
 }
 
+ul.phone {
+    padding: 0;
+}
+
+.phone>li {
+    list-style-position: inside;
+}
+
 @media (max-width: 1200px) {
     .hitno {
         position: relative;
