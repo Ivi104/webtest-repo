@@ -26,3 +26,7 @@ a:hover,
 a:focus {
     color: white;
 }
+
+.fancybox-skin {
+    background-color: #292d2f;
+}
