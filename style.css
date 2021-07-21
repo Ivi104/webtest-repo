@@ -1,0 +1,28 @@
+body {
+    background-color: #444444;
+    background-color: #1d1d1d !important;
+    color: lightblue;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.nav li a,
+a:hover,
+a:focus {
+    color: lightblue;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav li:hover {
+    background-color: #444444;
+}
+
+a {
+    color: #98CE00;
+}
+
+a:hover,
+a:focus {
+    color: white;
+}
