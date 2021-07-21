@@ -24,7 +24,7 @@ a:focus {
     background-color: orange;
 }
 
-.navbar-brand {
+div.navbar-header a.navbar-brand {
     color: orange;
 }
 
