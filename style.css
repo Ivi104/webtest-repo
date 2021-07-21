@@ -24,6 +24,10 @@ a:focus {
     background-color: orange;
 }
 
+.navbar-brand {
+    color: orange;
+}
+
 a {
     color: #98CE00;
 }
