@@ -1,7 +1,6 @@
 body {
-    background-color: #444444;
     background-color: #1d1d1d !important;
-    color: lightblue;
+    color: white;
     margin: 10px;
     font-size: 16px;
 }
@@ -9,13 +8,20 @@ body {
 .nav li a,
 a:hover,
 a:focus {
-    color: lightblue;
+    color: white;
 }
 
 .nav>li>a:hover,
 .nav>li>a:focus,
 .nav li:hover {
     background-color: #444444;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #1d1d1d;
+    background-color: orange;
 }
 
 a {
