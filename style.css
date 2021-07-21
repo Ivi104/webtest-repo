@@ -75,6 +75,7 @@ p {
 
 ul.phone {
     padding: 0;
+    font-size: 18px;
 }
 
 .phone>li {
