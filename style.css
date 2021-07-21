@@ -48,9 +48,31 @@ p {
     width: 215px;
 }
 
+.rel {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.rel>h2 {
+    text-align: center;
+    height: 85px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.side-img {
+    float: right;
+    padding-left: 10px;
+}
+
 @media (max-width: 1200px) {
     .hitno {
         position: relative;
         right: unset;
+        width: unset;
     }
 }
