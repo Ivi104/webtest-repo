@@ -47,3 +47,10 @@ p {
     right: 40px;
     width: 215px;
 }
+
+@media (max-width: 1200px) {
+    .hitno {
+        position: relative;
+        right: unset;
+    }
+}
